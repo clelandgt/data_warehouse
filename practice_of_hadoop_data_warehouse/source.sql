@@ -32,6 +32,16 @@ PRIMARY KEY (order_number)
 ALTER TABLE sales_order ADD FOREIGN KEY customer_number_idxfk (customer_number) REFERENCES customer (customer_number);
 ALTER TABLE sales_order ADD FOREIGN KEY product_code_idxfk (product_code) REFERENCES product (product_code);
 
+-- 日期维度表
+CREATE TABLE `date_dim` (
+  `date_sk` int(11) not NULL AUTO_INCREMENT,
+  `date` date DEFAULT NULL,
+  `month` int(11) DEFAULT NULL,
+  `month_name` varchar(10) DEFAULT NULL,
+  `quarter` tinyint(4) DEFAULT NULL,
+  `year` smallint(6) DEFAULT NULL,
+  UNIQUE KEY `date_sk` (`date_sk`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 -- 测试数据
@@ -87,4 +97,29 @@ end
 //
 delimiter ;
 call generate_sale_order_data(); 
+
+
+
+-- 日期维度表
+delimiter //
+drop procedure if exists pre_populate_date //
+create procedure pre_populate_date (in start_dt date, in end_dt date)
+begin 
+    while start_dt <= end_dt do
+        insert into date_dim(`date_sk`, `date`, `month`, `month_name`, `quarter`, `year`)
+        values 
+            (null, start_dt, month(start_dt), monthname(start_dt), quarter(start_dt), year(start_dt));
+        set start_dt = adddate(start_dt, 1);
+    end while;
+    commit;
+    end
+//
+
+delimiter ;
+-- 生成日期维度数据
+set foreign_key_checks=0;
+truncate table date_dim;
+call pre_populate_date('2000-01-01', '2020-12-31');
+set foreign_key_checks=1;
+
     
