@@ -62,7 +62,7 @@ select
     ,${hivevar:max_date} expiry_date
 from (
     select
-        pd.*
+        pr.*
     from rds.product as pr
     left join dwd.product_dim as pd on pd.product_code=pr.product_code
     where pd.product_code is null
