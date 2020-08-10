@@ -27,7 +27,7 @@ where product_sk in (
 -- 插入需做拉链的数据(考虑已拉链的数据，避免重复拉链)
 insert into dwd.product_dim
 select
-    row_number() over(order by base.product_code) + sm.sk_max as customer_sk
+    row_number() over(order by base.product_code) + sm.sk_max as product_sk
     ,base.product_code
     ,base.product_name
     ,base.product_category
@@ -53,7 +53,7 @@ cross join (
 /***2. 插入***/
 insert into dwd.product_dim
 select
-    row_number() over(order by base.product_code) + sm.sk_max as customer_sk
+    row_number() over(order by base.product_code) + sm.sk_max as product_sk
     ,base.product_code
     ,base.product_name
     ,base.product_category
