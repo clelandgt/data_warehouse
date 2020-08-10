@@ -1,0 +1,16 @@
+# Ignoring pycharm Tool cache files
+*.idea
+
+# Ignoring python cache file
+*pyc
+
+# Ignoring sqlite
+*db.sqlite3
+
+*.DS_Store
+*.ipynb_checkpoints
+*.python-version
+
+
+# log
+*.log
