@@ -79,7 +79,7 @@ stored as orc tblproperties('transactional'='true');
 drop table if exists dwd.cdc_time;
 create table dwd.cdc_time(
     last_load date,
-    curtent_load date
+    current_load date
 );
 
 set hivevar:last_load = date_add(current_date(), -1);
