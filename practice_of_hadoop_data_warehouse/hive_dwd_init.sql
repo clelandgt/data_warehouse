@@ -21,7 +21,7 @@ drop table if exists dwd.customer_dim;
 create table dwd.customer_dim
 (
     customer_sk INT,
-    coutomer_num INT,
+    customer_num INT,
     customer_name VARCHAR(50),
     customer_street_address VARCHAR(255),
     customer_zip_code INT,
