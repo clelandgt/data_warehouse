@@ -1,8 +1,10 @@
 drop database if exists dwd cascade;
 create database dwd;
-
 use dwd;
-CREATE TABLE dwd.date_dim
+
+
+drop table if exists dwd.date_dim;
+create table dwd.date_dim
 (
     date_sk INT,
     `date` DATE,
@@ -15,7 +17,8 @@ row format delimited fields terminated by ','
 stored as textfile;
 
 
-CREATE TABLE dwd.customer_dim
+drop table if exists dwd.customer_dim;
+create table dwd.customer_dim
 (
     customer_sk INT,
     coutomer_num INT,
@@ -32,7 +35,8 @@ clustered by (customer_sk) into 8 buckets
 stored as orc tblproperties('transactional'='true');
 
 
-CREATE TABLE dwd.order_dim
+drop table if exists dwd.order_dim;
+create table dwd.order_dim
 (
     order_sk INT,
     order_number INT,
@@ -44,7 +48,8 @@ clustered by (order_sk) into 8 buckets
 stored as orc tblproperties('transactional'='true');
 
 
-CREATE TABLE dwd.product_dim
+drop table if exists dwd.product_dim;
+create table dwd.product_dim
 (
     product_sk INT,
     product_code INT,
@@ -58,7 +63,8 @@ clustered by (product_sk) into 8 buckets
 stored as orc tblproperties('transactional'='true');
 
 
-CREATE TABLE dwd.sales_order_fact
+drop table if exists dwd.sales_order_fact;
+create table dwd.sales_order_fact
 (
     order_sk INT,
     customer_sk INT,
@@ -68,3 +74,17 @@ CREATE TABLE dwd.sales_order_fact
 )
 clustered by (order_sk) into 8 buckets
 stored as orc tblproperties('transactional'='true');
+
+
+drop table if exists dwd.cdc_time;
+create table dwd.cdc_time(
+    last_load date,
+    curtent_load date
+);
+
+set hivevar:last_load = date_add(current_date(), -1);
+insert overwrite table dwd.cdc_time
+select
+    ${hivevar:last_load}
+    ,${hivevar:last_load}
+;
