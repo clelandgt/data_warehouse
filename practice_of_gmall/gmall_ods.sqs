@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SQLContainer>
     <SQLTable>
-        <name><![CDATA[base_category_2]]></name>
+        <name><![CDATA[ods_base_category_2]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>339.00</x>
@@ -31,7 +31,7 @@
         <uid><![CDATA[0AA2FDC5-58F8-49C4-84C8-C32F4E3DA64B]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[order_detail]]></name>
+        <name><![CDATA[ods_order_detail]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>444.00</x>
@@ -82,7 +82,7 @@
         <uid><![CDATA[11244046-BE90-4B9C-8481-8821BC5BF84B]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[order_status_log]]></name>
+        <name><![CDATA[ods_order_status_log]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>348.00</x>
@@ -116,7 +116,7 @@
         <uid><![CDATA[18E5E08A-FE15-4ACB-9E64-16232FBD552C]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[order_refund_info]]></name>
+        <name><![CDATA[ods_order_refund_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>597.00</x>
@@ -175,14 +175,14 @@
         <uid><![CDATA[19491DD1-A014-4A2B-AE79-1064CCBB29D5]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[base_trademark]]></name>
+        <name><![CDATA[ods_base_trademark]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>102.00</x>
             <y>558.00</y>
         </location>
         <size>
-            <width>188.00</width>
+            <width>177.00</width>
             <height>60.00</height>
         </size>
         <zorder>10</zorder>
@@ -199,7 +199,76 @@
         <uid><![CDATA[1EA9B530-DD00-486E-9F34-95808EB3077D]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[base_province]]></name>
+        <name><![CDATA[ods_card_info]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>1371.00</x>
+            <y>545.00</y>
+        </location>
+        <size>
+            <width>197.00</width>
+            <height>240.00</height>
+        </size>
+        <zorder>15</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[75C964D9-3817-4CAC-9E93-00833B35787D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[user_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[012377C2-932E-4853-BEFA-5A28C9270063]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[1576A709-5E1D-48DF-8EFB-2BAC3760843A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_price]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[3DF0536C-EE03-42D8-8D9F-6E9952FC5726]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_num]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[E68584A4-B947-4C46-8E7D-749EEADCC463]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[39F593F4-DB5E-4E65-AC80-3E974DD5760E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[4E35FC3D-ECE2-4F06-8825-EF385F21161F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[update_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[58C1493E-93D1-43A9-9D01-8972CE49C295]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[operate_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[58667525-8272-40C9-B590-BE2E2C8F2DF6]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[id_ordered]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[488D0B3C-1ECA-4694-A3B3-812FBA644B0D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[61E9ADF9-E8A0-407B-B6F6-EDF5752E824B]]></uid>
+        </SQLField>
+        <uid><![CDATA[245FB40A-1DF0-4709-810D-9C6E7D763E05]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_base_province]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>817.00</x>
@@ -238,7 +307,7 @@
         <uid><![CDATA[3345C239-20AC-4C0D-B6A0-16AC89EAE078]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[order_info]]></name>
+        <name><![CDATA[ods_order_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>112.00</x>
@@ -299,7 +368,41 @@
         <uid><![CDATA[67DB494F-5E94-4DF2-8C55-142FE5879FE6]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[base_category_3]]></name>
+        <name><![CDATA[ods_activity_order]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>1078.00</x>
+            <y>788.00</y>
+        </location>
+        <size>
+            <width>190.00</width>
+            <height>100.00</height>
+        </size>
+        <zorder>20</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[696ED277-48A4-45BA-A24E-CBF14ADBD736]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[BD507EF3-9D2C-4A77-BADF-0C211B4A1F9A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[F05D25AE-1B13-4CB7-9318-69AD4A3BCB54]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[66A7BDF9-A550-45A0-83DC-EC146F6BBA36]]></uid>
+        </SQLField>
+        <uid><![CDATA[85DF4B4F-C567-46DA-8E49-F0BC5CCFF0BA]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_base_category_3]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>574.00</x>
@@ -336,7 +439,61 @@
         <uid><![CDATA[86AB4C28-DE39-4A69-8D7E-D6D32B839928]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[comment_info]]></name>
+        <name><![CDATA[ods_coupon_user]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>322.00</x>
+            <y>784.00</y>
+        </location>
+        <size>
+            <width>216.00</width>
+            <height>180.00</height>
+        </size>
+        <zorder>17</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[E75B7036-4C92-4179-BDB9-9245598C7578]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[coupon_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[8EE0F1CF-D8EC-46EC-95FC-461526855C8D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[user_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[2A05E5AA-B110-444B-BACD-6A40242D6D1E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[EC15A9BF-4A12-45A2-8944-209E33A29F85]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[coupon_status]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[74BFE2D5-DD77-46E4-8E76-1C39CD2A30C1]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[get_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[9C8936A3-A2B7-40E0-ADD2-E02B3330E802]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[using_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[361C6E8E-46F9-4ED0-A0A2-7C2A7BA3F3CA]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[used_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[87E5CE20-9467-4D51-802A-9F50184ED723]]></uid>
+        </SQLField>
+        <uid><![CDATA[8751E355-15F9-45E6-89F6-E7B543B566CE]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_comment_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>1130.00</x>
@@ -380,7 +537,56 @@
         <uid><![CDATA[8B31918D-3D49-469D-95BF-5308AE6AF4EC]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[user_info]]></name>
+        <name><![CDATA[ods_activity_rule]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>1312.00</x>
+            <y>809.00</y>
+        </location>
+        <size>
+            <width>233.00</width>
+            <height>180.00</height>
+        </size>
+        <zorder>21</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[24E0DF06-2250-46D0-A0BA-9AF617BFC913]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[8741D9FE-75C9-43CC-AFED-F464EDB182DA]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[condition_amount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[C50B42F4-C8DE-41C8-A07D-7E4D472FCDD8]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[condition_num]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[215717A4-D93D-4BC8-BA83-E771A222E7C8]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_amount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[69CF1678-24A3-45FF-BBB7-1735697546DC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_discount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[B0CCA3D6-44BA-4FCB-BDEE-6CE986A06A0F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_level]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[4F7CC43C-665F-441A-AC31-4028AE7E6544]]></uid>
+        </SQLField>
+        <uid><![CDATA[971A0F25-BB98-47BF-8C28-9AF316E7634A]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_user_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>941.00</x>
@@ -435,10 +641,153 @@
         <uid><![CDATA[9B750591-DE7D-4D69-885D-B6DDD135A079]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[base_region]]></name>
+        <name><![CDATA[ods_coupon_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
-            <x>1045.00</x>
+            <x>560.00</x>
+            <y>784.00</y>
+        </location>
+        <size>
+            <width>233.00</width>
+            <height>340.00</height>
+        </size>
+        <zorder>18</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[0BFB5221-28B0-4F0E-95BE-0B45E77F85A0]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[coupon_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[B830E24F-8DEF-4A3D-A394-EE8F3471D062]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[coupon_type]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[0ABC9918-774F-45E7-9067-BBC20E23C6C3]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[condition_amount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[C2B0E7E9-0416-4F9D-8CD9-AE1550491039]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[condition_num]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[F7CEACAD-3EFC-4CB1-9FA7-7FF0F044A25C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[60A23242-7832-4188-B9C0-622A4B899A04]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_amount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[A30353A4-2CCA-4570-9A94-B80CBED2FD47]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_discount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[FDF415C8-CA83-49CD-896A-9F816421CC5B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[33106242-4D2B-439D-8E0E-AE7BF0790036]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[range_type]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[333F12D2-BA4A-4E21-93CB-04664927F287]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[spu_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[99A9220A-EEB0-4A6F-8105-937A63C0F942]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[tm_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[24D4E6EB-3108-4C95-A619-9E1E868A94DD]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[category3_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[8A302864-7005-47C9-8B0B-AA4E0B5E8939]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[limit_num]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[335944D2-F8F2-4727-8376-035B399228AF]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[operate_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[67E325C5-25F2-4BA8-A228-6A8EDD2B7898]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[expire_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[1507558A-0A9D-41F8-8F57-9D2052EB7E31]]></uid>
+        </SQLField>
+        <uid><![CDATA[AB3AC950-B304-4DD6-95E6-D1CB0EB226F4]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_favor_info]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>93.00</x>
+            <y>782.00</y>
+        </location>
+        <size>
+            <width>202.00</width>
+            <height>160.00</height>
+        </size>
+        <zorder>16</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[E9D6053B-CB72-484C-A106-8EF9333B546E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[user_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[740123AE-1D66-496D-9900-8DC2B2D6B516]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[DD8D97EB-B6ED-472C-BE8D-FE59DDCD3F2F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[spu_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[994D8127-E5C9-44E9-9B2F-6C6C07B22923]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[is_cancel]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[5E0AB761-AF4C-4D84-8427-E04F2D2C482D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[E103AEC6-8A95-4F3A-92B5-6885BBCFD558]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cancel_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[FB872790-67E0-4EFB-8C8E-62B123BA5F9C]]></uid>
+        </SQLField>
+        <uid><![CDATA[B49388A0-6AB5-4AC2-83A5-2C3B7C2E4EDC]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_base_region]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>1044.00</x>
             <y>401.00</y>
         </location>
         <size>
@@ -459,14 +808,14 @@
         <uid><![CDATA[C72A5022-ADFE-4BBD-834B-70635706442B]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[spu_info]]></name>
+        <name><![CDATA[ods_spu_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>873.00</x>
             <y>557.00</y>
         </location>
         <size>
-            <width>225.00</width>
+            <width>196.00</width>
             <height>100.00</height>
         </size>
         <zorder>13</zorder>
@@ -493,7 +842,7 @@
         <uid><![CDATA[CAA2D2E1-A7B2-4A9B-BC3B-86B5B1BCE223]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[base_category_1]]></name>
+        <name><![CDATA[ods_base_category_1]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>107.00</x>
@@ -518,14 +867,14 @@
         <uid><![CDATA[DC850936-52E1-4370-9E8B-2F5A05EFF31F]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[payment_info]]></name>
+        <name><![CDATA[ods_payment_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>1220.00</x>
             <y>145.00</y>
         </location>
         <size>
-            <width>223.00</width>
+            <width>213.00</width>
             <height>200.00</height>
         </size>
         <zorder>7</zorder>
@@ -577,14 +926,14 @@
         <uid><![CDATA[E3203626-F5EB-4995-82E1-B643D585F573]]></uid>
     </SQLTable>
     <SQLTable>
-        <name><![CDATA[sku_info]]></name>
+        <name><![CDATA[ods_sku_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
             <x>714.00</x>
             <y>143.00</y>
         </location>
         <size>
-            <width>206.00</width>
+            <width>196.00</width>
             <height>200.00</height>
         </size>
         <zorder>2</zorder>
@@ -636,6 +985,89 @@
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[E6302B83-3670-40E9-92C2-CC5CF40B9C99]]></uid>
     </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_activity_info]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>817.00</x>
+            <y>783.00</y>
+        </location>
+        <size>
+            <width>211.00</width>
+            <height>140.00</height>
+        </size>
+        <zorder>19</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[D57A8862-3695-47D1-AA3E-78A33723BAF4]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[62474DEE-B8C0-4C2A-A442-C2203CEA92CE]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_type]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[1ECC6D58-3572-4FF2-A50B-A2D6888195E3]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[start_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[B8BAA613-A4EA-4B27-9788-705008EC390A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[end_timeva]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[807F1A9E-F903-4674-A845-03E2B83D1AAD]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[8C2B0883-8978-4C4D-A022-68DA10FA3221]]></uid>
+        </SQLField>
+        <uid><![CDATA[F2E4D62A-B7C6-4114-B02D-56BA1F282982]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[ods_base_dic]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>1579.00</x>
+            <y>818.00</y>
+        </location>
+        <size>
+            <width>197.00</width>
+            <height>120.00</height>
+        </size>
+        <zorder>22</zorder>
+        <SQLField>
+            <name><![CDATA[dic_code]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[3A2C3B1D-7220-4CB9-A13E-49CFC839E8BF]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[dic_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[F363E832-ED0A-48E3-9223-C8DF41A6CF6B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[parent_code]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[3D51D63C-E59B-4B1E-B0DA-FD25DDE3048D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[521C45A4-EE31-46E5-BA3F-1A285E69155C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[operate_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[5E717E49-37DC-4217-92AF-816B9A5BD92D]]></uid>
+        </SQLField>
+        <uid><![CDATA[F9DF17FA-BF80-4D27-8025-66DF1746F726]]></uid>
+    </SQLTable>
     <SQLDocumentInfo>
         <encodedPrintInfo><![CDATA[BAtzdHJlYW10eXBlZIHoA4QBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVjdACFkoSEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCUhAFpDZKEhIQITlNTdHJpbmcBlIQBKw5OU1BNUGFnZUZvcm1hdIaShISEDU5TTXV0YWJsZURhdGEAhIQGTlNEYXRhAJSXgZ0bhAdbNzA2OWNdPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1Ib3Jpem9udGFsUmVzPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUhvcml6b250YWxSZXM8L2tleT4KCQkJCTxyZWFsPjcyPC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNT3JpZW50YXRpb248L2tleT4KCTxkaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRpY3Q+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNT3JpZW50YXRpb248L2tleT4KCQkJCTxpbnRlZ2VyPjE8L2ludGVnZXI+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1TY2FsaW5nPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQk8YXJyYXk+CgkJCTxkaWN0PgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTVNjYWxpbmc8L2tleT4KCQkJCTxyZWFsPjE8L3JlYWw+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFJlczwva2V5PgoJPGRpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJPGFycmF5PgoJCQk8ZGljdD4KCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFJlczwva2V5PgoJCQkJPHJlYWw+NzI8L3JlYWw+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQk8L2RpY3Q+CgkJPC9hcnJheT4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1WZXJ0aWNhbFNjYWxpbmc8L2tleT4KCTxkaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCTxhcnJheT4KCQkJPGRpY3Q+CgkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNVmVydGljYWxTY2FsaW5nPC9rZXk+CgkJCQk8cmVhbD4xPC9yZWFsPgoJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJPC9kaWN0PgoJCTwvYXJyYXk+Cgk8L2RpY3Q+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC5zdWJUaWNrZXQucGFwZXJfaW5mb190aWNrZXQ8L2tleT4KCTxkaWN0PgoJCTxrZXk+UE1QUERQYXBlckNvZGVOYW1lPC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+UE1QUERQYXBlckNvZGVOYW1lPC9rZXk+CgkJCQkJPHN0cmluZz5BNDwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PlBNUFBEVHJhbnNsYXRpb25TdHJpbmdQYXBlck5hbWU8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5QTVBQRFRyYW5zbGF0aW9uU3RyaW5nUGFwZXJOYW1lPC9rZXk+CgkJCQkJPHN0cmluZz5BNDwvc3RyaW5nPgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PlBNVGlvZ2FQYXBlck5hbWU8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5QTVRpb2dhUGFwZXJOYW1lPC9rZXk+CgkJCQkJPHN0cmluZz5pc28tYTQ8L3N0cmluZz4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdC5QTUFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxyZWFsPjc4MzwvcmVhbD4KCQkJCQkJPHJlYWw+NTU5PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhZ2VGb3JtYXQuUE1BZGp1c3RlZFBhcGVyUmVjdDwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYWdlRm9ybWF0LlBNQWRqdXN0ZWRQYXBlclJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxyZWFsPi0xODwvcmVhbD4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD44MjQ8L3JlYWw+CgkJCQkJCTxyZWFsPjU3NzwvcmVhbD4KCQkJCQk8L2FycmF5PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5zdGF0ZUZsYWc8L2tleT4KCQkJCQk8aW50ZWdlcj4wPC9pbnRlZ2VyPgoJCQkJPC9kaWN0PgoJCQk8L2FycmF5PgoJCTwvZGljdD4KCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1QUERQYXBlckRpbWVuc2lvbjwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1QUERQYXBlckRpbWVuc2lvbjwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCQkJPHJlYWw+NTk1PC9yZWFsPgoJCQkJCQk8cmVhbD44NDI8L3JlYWw+CgkJCQkJPC9hcnJheT4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLlBNUGFwZXJOYW1lPC9rZXk+CgkJPGRpY3Q+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5jcmVhdG9yPC9rZXk+CgkJCTxzdHJpbmc+Y29tLmFwcGxlLmpvYnRpY2tldDwvc3RyaW5nPgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuaXRlbUFycmF5PC9rZXk+CgkJCTxhcnJheT4KCQkJCTxkaWN0PgoJCQkJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVBhcGVyTmFtZTwva2V5PgoJCQkJCTxzdHJpbmc+aXNvLWE0PC9zdHJpbmc+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVVuYWRqdXN0ZWRQYWdlUmVjdDwva2V5PgoJCTxkaWN0PgoJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuY3JlYXRvcjwva2V5PgoJCQk8c3RyaW5nPmNvbS5hcHBsZS5qb2J0aWNrZXQ8L3N0cmluZz4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0Lml0ZW1BcnJheTwva2V5PgoJCQk8YXJyYXk+CgkJCQk8ZGljdD4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC5QYXBlckluZm8uUE1VbmFkanVzdGVkUGFnZVJlY3Q8L2tleT4KCQkJCQk8YXJyYXk+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQkJCTxyZWFsPjc4MzwvcmVhbD4KCQkJCQkJPHJlYWw+NTU5PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5QTVVuYWRqdXN0ZWRQYXBlclJlY3Q8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLlBNVW5hZGp1c3RlZFBhcGVyUmVjdDwva2V5PgoJCQkJCTxhcnJheT4KCQkJCQkJPHJlYWw+LTE4PC9yZWFsPgoJCQkJCQk8cmVhbD4tMTg8L3JlYWw+CgkJCQkJCTxyZWFsPjgyNDwvcmVhbD4KCQkJCQkJPHJlYWw+NTc3PC9yZWFsPgoJCQkJCTwvYXJyYXk+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnN0YXRlRmxhZzwva2V5PgoJCQkJCTxpbnRlZ2VyPjA8L2ludGVnZXI+CgkJCQk8L2RpY3Q+CgkJCTwvYXJyYXk+CgkJPC9kaWN0PgoJCTxrZXk+Y29tLmFwcGxlLnByaW50LlBhcGVySW5mby5wcGQuUE1QYXBlck5hbWU8L2tleT4KCQk8ZGljdD4KCQkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LmNyZWF0b3I8L2tleT4KCQkJPHN0cmluZz5jb20uYXBwbGUuam9idGlja2V0PC9zdHJpbmc+CgkJCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5pdGVtQXJyYXk8L2tleT4KCQkJPGFycmF5PgoJCQkJPGRpY3Q+CgkJCQkJPGtleT5jb20uYXBwbGUucHJpbnQuUGFwZXJJbmZvLnBwZC5QTVBhcGVyTmFtZTwva2V5PgoJCQkJCTxzdHJpbmc+QTQ8L3N0cmluZz4KCQkJCQk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQuc3RhdGVGbGFnPC9rZXk+CgkJCQkJPGludGVnZXI+MDwvaW50ZWdlcj4KCQkJCTwvZGljdD4KCQkJPC9hcnJheT4KCQk8L2RpY3Q+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LkFQSVZlcnNpb248L2tleT4KCQk8c3RyaW5nPjAwLjIwPC9zdHJpbmc+CgkJPGtleT5jb20uYXBwbGUucHJpbnQudGlja2V0LnR5cGU8L2tleT4KCQk8c3RyaW5nPmNvbS5hcHBsZS5wcmludC5QYXBlckluZm9UaWNrZXQ8L3N0cmluZz4KCTwvZGljdD4KCTxrZXk+Y29tLmFwcGxlLnByaW50LnRpY2tldC5BUElWZXJzaW9uPC9rZXk+Cgk8c3RyaW5nPjAwLjIwPC9zdHJpbmc+Cgk8a2V5PmNvbS5hcHBsZS5wcmludC50aWNrZXQudHlwZTwva2V5PgoJPHN0cmluZz5jb20uYXBwbGUucHJpbnQuUGFnZUZvcm1hdFRpY2tldDwvc3RyaW5nPgo8L2RpY3Q+CjwvcGxpc3Q+CoaShJmZC05TUGFwZXJTaXplhpKEhIQHTlNWYWx1ZQCUhAEqhIQLe0NHU2l6ZT1kZH2fgVMCgUoDhpKEmZkWTlNIb3Jpem9udGFsbHlDZW50ZXJlZIaShISECE5TTnVtYmVyAJ+ehIQBY6EBhpKEmZkUTlNWZXJ0aWNhbGx5Q2VudGVyZWSGkqKShJmZDE5TTGVmdE1hcmdpboaShKOehIQBZKIShpKEmZkNTlNSaWdodE1hcmdpboaSp5KEmZkLTlNUb3BNYXJnaW6GkoSjnqiiHoaShJmZDU5TT3JpZW50YXRpb26GkoSjnoSEAXGjAIaShJmZFU5TSG9yaXpvbmFsUGFnaW5hdGlvboaSrZKEmZkUTlNWZXJ0aWNhbFBhZ2luYXRpb26Gkq2ShJmZDk5TQm90dG9tTWFyZ2luhpKEo56oojWGkoSZmQ9OU1NjYWxpbmdGYWN0b3KGkoSjnqiiAYaShJmZC05TUGFwZXJOYW1lhpKEmZkGaXNvLWE0hoaG]]></encodedPrintInfo>
         <autoSizeTablesOption><![CDATA[0]]></autoSizeTablesOption>
@@ -658,7 +1090,7 @@
         <windowHeight><![CDATA[990.000000]]></windowHeight>
         <windowLocationX><![CDATA[0.000000]]></windowLocationX>
         <windowLocationY><![CDATA[0.000000]]></windowLocationY>
-        <windowScrollOrigin><![CDATA[{416, 0}]]></windowScrollOrigin>
+        <windowScrollOrigin><![CDATA[{957, 85}]]></windowScrollOrigin>
         <windowWidth><![CDATA[1680.000000]]></windowWidth>
     </SQLDocumentInfo>
     <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>
