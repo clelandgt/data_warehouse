@@ -62,6 +62,7 @@
             <type><![CDATA[DECIMAL((16,2))]]></type>
             <uid><![CDATA[B811ACE0-5586-4C7A-A9E1-45E765863FCB]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[008EA450-E6B2-4730-93C9-5892833668AA]]></uid>
     </SQLTable>
     <SQLTable>
@@ -212,6 +213,7 @@
             <type><![CDATA[DECIMAL((10,2))]]></type>
             <uid><![CDATA[5EFF3AD9-331F-4556-A2D0-321A64BD104D]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[07BF0ECD-4252-4167-BF3A-C24F2176A700]]></uid>
     </SQLTable>
     <SQLTable>
@@ -296,6 +298,105 @@
         <labelWindowIndex><![CDATA[23]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[11244046-BE90-4B9C-8481-8821BC5BF84B]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dws_coupon_use_daycount]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>564.00</x>
+            <y>2624.00</y>
+        </location>
+        <size>
+            <width>233.00</width>
+            <height>360.00</height>
+        </size>
+        <zorder>38</zorder>
+        <SQLField>
+            <name><![CDATA[coupon_id]]></name>
+            <type><![CDATA[VARBINARY(255)]]></type>
+            <uid><![CDATA[62CE1073-07BE-4880-B201-0F9731809807]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[coupon_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[76117487-9BEA-47B6-8E7E-09B0310872D1]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[coupon_type]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[9B2F2924-645E-4E81-93DC-AA27E2245F74]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[condition_amount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[BEE5203D-A061-4FB2-9A11-372C6165B505]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[condition_num]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[6019C8D6-FD21-492D-B1C9-14D52563CBAF]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[36FA02A1-E39B-4A42-B1C4-27C34B1B2EFB]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_amount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[1E2DDA48-AC84-4F78-9B56-CB89D1AA0C25]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[benefit_distcount]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[777E378D-7089-46B7-B30B-BF7E4B076BBD]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[create_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[BD4C85C0-4DD9-42A1-9811-477AB78A4BA2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[range_type]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[A8716F76-1E4C-4ACB-BD1F-7049D268A85F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[spu_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[FE250026-1F99-424C-AC47-10A3B17046EB]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[tm_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[209BBB06-0292-4533-A2EE-57AFD1F178CD]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[catory_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[26431E94-9B6F-460B-AB6E-0D2F8CDB3578]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[limit_num]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[DECE9F9F-CF36-4E8D-9083-06B790AD54A2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[get_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[04A912E4-C40B-4C29-9034-A0F01E88ACF5]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[using_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[37EF32B6-D98C-4BDC-A1D9-5EE504AA8C06]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[used_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[52CAF0C7-A5D3-4D20-8DE9-76BB22FCD18D]]></uid>
+        </SQLField>
+        <uid><![CDATA[14C6809A-73F3-4A27-8CDE-563C7471E543]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[dwd_dim_sku_info]]></name>
@@ -630,6 +731,112 @@
         <uid><![CDATA[3345C239-20AC-4C0D-B6A0-16AC89EAE078]]></uid>
     </SQLTable>
     <SQLTable>
+        <name><![CDATA[dws_sale_detail_daycount]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>1036.00</x>
+            <y>2626.00</y>
+        </location>
+        <size>
+            <width>266.00</width>
+            <height>380.00</height>
+        </size>
+        <zorder>40</zorder>
+        <SQLField>
+            <name><![CDATA[user_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[74EBF86F-7458-4BE4-A319-A360053A8D85]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[user_gender]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[E16CD4DB-9B89-42C7-BD7A-BD7191B5E94C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[user_age]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[EDFE7A7A-7AEB-499E-A8B5-33F03A10D62F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[user_level]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <forcedUnique><![CDATA[0]]></forcedUnique>
+            <uid><![CDATA[A7639289-7006-468F-A729-B49EDDCAB1FF]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_price]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[A0D9AF2D-7BCF-4B99-A57E-59FE3ED7056A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <forcedUnique><![CDATA[0]]></forcedUnique>
+            <uid><![CDATA[0E844A38-49C4-4A60-B7AD-E247B902B499]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[2F4057F2-9E0A-4532-B2BC-FEE57254F596]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_tm_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[2E4E1F1A-1D1A-4D4C-BFE1-39C3C178D9C9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[spu_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[ADC718BA-EC2B-4DD6-94C6-33DB77F79D3B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_category3_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[97579F5C-7973-4271-8380-75E5DA58EA8E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_category3_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[AEE7ACBF-3B11-409B-AA6E-8BB905B5DAC9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_category2_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[303CD059-3952-4351-8DA1-26F00DB50452]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_category2_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[380DC342-0F9C-46F6-9E91-B65BF6ED00F5]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_category1_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[CCAB4622-5599-4C15-A9CA-5BE5269A6CE1]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_category1_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[7D9BCB74-DCEC-479E-A2C6-058DB1C6B99C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[sku_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[7574135A-C3E5-413C-B246-B9EA35AD6053]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[6BD39D27-41B8-44EC-8CB9-1A89B9F6944D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[8E9F093A-CC07-4395-A93D-201253068FA4]]></uid>
+        </SQLField>
+        <uid><![CDATA[4E26DED6-FC47-445A-8231-9682DEEF099B]]></uid>
+    </SQLTable>
+    <SQLTable>
         <name><![CDATA[ods_order_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
@@ -690,6 +897,55 @@
         <labelWindowIndex><![CDATA[16]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[67DB494F-5E94-4DF2-8C55-142FE5879FE6]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dws_activity_info_daycount]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>811.00</x>
+            <y>2626.00</y>
+        </location>
+        <size>
+            <width>211.00</width>
+            <height>160.00</height>
+        </size>
+        <zorder>39</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[96242879-1B5C-4904-8D8A-AC51E7AEDEC4]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[A3078BB9-E54D-4EB2-8E01-68700000F433]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_type]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[AC346B44-73E8-452B-A841-144BD93BB0ED]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[start_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[C114D908-22F6-4C91-81CF-B084A2B34DC2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[end_time]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[2BC78080-E2F6-4AB7-AE35-F859CC6591CB]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[3E06AD53-387B-4011-9777-0876258C059B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[9F4E224C-6956-4340-B3D5-79E07D5FD41B]]></uid>
+        </SQLField>
+        <uid><![CDATA[699EA990-F59F-4717-8B58-9488869DF058]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[dwd_fact_order_detail]]></name>
@@ -755,6 +1011,7 @@
             <type><![CDATA[DECIMAL((10,2))]]></type>
             <uid><![CDATA[3832C2C3-98B1-4B5D-BC6A-A8A02CA6F0F6]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[7601216C-B02E-4369-B320-C919EE103EE9]]></uid>
     </SQLTable>
     <SQLTable>
@@ -840,6 +1097,100 @@
         <labelWindowIndex><![CDATA[0]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[77A38AE0-3323-4F7D-B2EB-17644E973A6A]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dwt_user_topic]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>45.00</x>
+            <y>3176.00</y>
+        </location>
+        <size>
+            <width>272.00</width>
+            <height>340.00</height>
+        </size>
+        <zorder>41</zorder>
+        <SQLField>
+            <name><![CDATA[user_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[CDEBACD6-7B9C-422C-A09E-B846D20E0F0D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[login_date_first]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[38B1EFA4-A8F6-48EF-A6FC-9D2CB3BF6128]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[login_date_last]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[D69433E2-10ED-4DEC-8926-89BACAF2F35D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[login_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[42C920E8-2DCA-4D13-9FB2-4EDFC9BB1AFC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_date_first]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[99B1A210-E3F4-4C9A-983C-B5CB29667C89]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_date_last]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[BB576179-A847-4BDD-A104-8BF4FFC26CC3]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[D515246C-E652-4E2B-886C-D3559A342CF0]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[E320A290-4801-47F8-99E4-656DDD2A8BB6]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_last_3d_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[E41FF597-FCFD-4C44-B593-8D84D2075D17]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_last_3d_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[BD81A44B-592B-49AA-8938-233ED1C7E25D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_date_first]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[0A180D90-CE9D-4ADA-B52E-E3D118C0CBCC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_date_last]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[97A8ED00-F076-4B70-A9FC-F205253AD547]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[43217E64-C060-487D-BF06-5CD82020DB30]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[B817F3F6-D748-42BF-9028-D2C8555A6BD2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_last_3d_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[6E222C72-757F-46ED-AB71-44468B9F8E9E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_last_3d_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[77E79854-2FF3-4119-B155-74D20D96ECA7]]></uid>
+        </SQLField>
+        <uid><![CDATA[7ABA8770-FC2C-4F29-95B7-11635B1E27F5]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[ods_activity_order]]></name>
@@ -1015,6 +1366,60 @@
         <labelWindowIndex><![CDATA[12]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[8B31918D-3D49-469D-95BF-5308AE6AF4EC]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dws_user_action_daycount]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>57.00</x>
+            <y>2625.00</y>
+        </location>
+        <size>
+            <width>227.00</width>
+            <height>180.00</height>
+        </size>
+        <zorder>36</zorder>
+        <SQLField>
+            <name><![CDATA[user_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[3FB1AC1F-C32B-4A8B-AF93-D0F3F723C8D6]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[login_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[5F614456-0D07-4A4B-B26F-18EF3296BF0A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[card_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[DDC42975-F56E-4385-89D3-1D332D1B7DCC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[card_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[9EA81518-F114-4F36-83CD-44E7E498EE80]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[7B2DE27D-402C-4168-9948-94B65312A410]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[E31DA892-229F-46C1-A5F7-4C4CB3EBE80F]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[CD03E68C-E34C-4893-8BC6-2228BCC39C07]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[CA8D4F96-6EBC-4DA6-A22C-7365C6164E92]]></uid>
+        </SQLField>
+        <uid><![CDATA[8C66C562-F5BC-4FFD-B388-0C821EB45A21]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[ods_activity_rule]]></name>
@@ -1317,7 +1722,52 @@
             <type><![CDATA[VARCHAR(255)]]></type>
             <uid><![CDATA[6BBBE322-5550-4780-A242-84996D2CF93C]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[BA2FC937-EE61-4A15-903D-8F296565E0EE]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dwt_activity_topic]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>842.00</x>
+            <y>3172.00</y>
+        </location>
+        <size>
+            <width>211.00</width>
+            <height>140.00</height>
+        </size>
+        <zorder>44</zorder>
+        <SQLField>
+            <name><![CDATA[id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[2CBB6887-D248-44AE-8F4F-24FE0663021A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[activity_name]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[9E32A5FA-4ABE-41CE-BF58-724BA376C1A2]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_day_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[2043B4B6-70B6-458A-9A69-BCA2D517DF60]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_day_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[CA6F922F-F688-461A-8092-E89383EDDA49]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[8494A3B1-3F54-4510-9FFD-C8C583247800]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[A666A46F-255B-401F-9787-400CEDBCE955]]></uid>
+        </SQLField>
+        <uid><![CDATA[C5547143-AB1D-498B-85B9-586BE5E0C41E]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[ods_base_region]]></name>
@@ -1344,6 +1794,191 @@
         <labelWindowIndex><![CDATA[7]]></labelWindowIndex>
         <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[C72A5022-ADFE-4BBD-834B-70635706442B]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dwt_sku_topic]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>335.00</x>
+            <y>3175.00</y>
+        </location>
+        <size>
+            <width>272.00</width>
+            <height>700.00</height>
+        </size>
+        <zorder>42</zorder>
+        <SQLField>
+            <name><![CDATA[sku_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[8055C500-B70F-459A-B044-82700E1D3AD9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[spu_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[4207BEC8-E686-4518-8213-E4BE96B1574B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[B19594BD-04B3-4434-89C7-91AB1F45D7D4]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[E0D0C055-5BBB-4FA3-B1F5-59C06FD6650D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[D3B715DF-6B93-46CC-8902-4D09C53F169E]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_last_30_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[3C5E11B0-7E4E-419E-BC86-088906CF2462]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_last_30_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[71FEE6B1-0670-4634-9EED-DC1E00D3E0F5]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_last_30_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[71E0EB60-5D31-4753-845A-230D08F610D9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_last_30_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[784C1156-4954-4780-8BC7-B0B6E5E7CCDC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_last_30_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[9814DE1F-A3CB-463B-BC72-E863886DAD40]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_last_30_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[F31E5DAE-B2D0-4524-91E9-60174F02F152]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[334B729B-E0D2-4FDA-9355-5AF9CAD9F920]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <forcedUnique><![CDATA[0]]></forcedUnique>
+            <uid><![CDATA[CDBCA1BD-9BE4-43FB-B40F-453D6D281518]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[D3908155-5BCE-4928-9058-E67F9418665C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_last_30_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[33C5A9D8-AE63-404D-9CB9-D43BB557B472]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_last_30_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[80DC860F-6173-4624-A76C-C38E806C4E81]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_last_30_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[83A6E229-5A0B-42AD-A807-15F4D7C0BDD5]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[12919191-B21C-4A0A-828A-7B200A1E75AC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[D4E857EB-41D3-450B-BC03-7B1AA20E2694]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[97708674-1F34-4F34-8981-0920C4B06DA4]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_last_30_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[10D90BD7-0B09-4FCF-8F1D-B0B2766628F7]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_last_30_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[1723036C-690B-4F21-9DC9-C2AC217FAFCB]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[70B5A10A-2E31-4ADF-9C6A-932C26B4E217]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_num]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[9F76A4B2-9488-4D4E-A47E-8ECD31E69A17]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[favor_last_30d_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[A35A3DEB-029D-44B3-B732-86D69F365827]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[favor_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[80815E1C-7E3F-4C9B-913F-10754A1AD602]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_last_30d_good_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[0F920E71-D1CA-4B64-BFC3-0714F0F3A359]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_last_30d_mid_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[68F20BBF-8B9C-45EC-A20C-BE1BE0F29322]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_last_30d_bad_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[E834543E-0E4A-4B31-A811-2F30460402B0]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_last_30d_default_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[ECBA2A46-9DF2-4086-8CDF-195F83C8BA99]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_good_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[3AC9A282-0AB5-4260-BF33-D6716D8E8478]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_mid_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[A28B91DD-98F5-42C9-B347-191EDBE29B25]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_bad_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[5DBCCCAD-7C8E-4134-8126-E368D122734A]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_default_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[4F1C971F-2E20-4A97-B9B3-6395F6174D90]]></uid>
+        </SQLField>
+        <uid><![CDATA[CA768E92-D13E-4147-B605-BF63988DB1E3]]></uid>
     </SQLTable>
     <SQLTable>
         <name><![CDATA[ods_spu_info]]></name>
@@ -1428,6 +2063,7 @@
             <type><![CDATA[VARCHAR(255)]]></type>
             <uid><![CDATA[02CFCB42-C6FB-41FE-A0D0-A05D497B5364]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[CC6B0F71-233E-4423-8FB9-B818BCE5CB97]]></uid>
     </SQLTable>
     <SQLTable>
@@ -1487,6 +2123,7 @@
             <type><![CDATA[INT]]></type>
             <uid><![CDATA[2CBAF90F-7676-4B45-8BBE-3302532CA4CD]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[CD5353C3-4A6A-4F17-9F15-794594623408]]></uid>
     </SQLTable>
     <SQLTable>
@@ -1766,6 +2403,154 @@
         <uid><![CDATA[E6302B83-3670-40E9-92C2-CC5CF40B9C99]]></uid>
     </SQLTable>
     <SQLTable>
+        <name><![CDATA[dws_sku_action_daycount]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>316.00</x>
+            <y>2622.00</y>
+        </location>
+        <size>
+            <width>227.00</width>
+            <height>360.00</height>
+        </size>
+        <zorder>37</zorder>
+        <SQLField>
+            <name><![CDATA[sku_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[799BC921-38F3-4242-8A8B-A76FD9C37567]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[2CAD2EE1-E29F-446F-B5BA-3C3A0C4E442C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_num]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[A0D2BDD4-6DB2-4ED3-8E91-5E10361A5250]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[order_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[B129C825-8A57-44F8-8086-EF815EC1483C]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[FEEB8649-4671-48F4-AFFE-04AB623EE5FE]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_num]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[94F219D9-F922-456F-A400-40459D2153CA]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[payment_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[50038215-E0A2-496A-AAB7-F663E99D46AC]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[278E7D6F-3B6C-4468-8225-ED7FD5484F72]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_num]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[AAF8B8C7-DD90-41E2-8798-A24E38003C31]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[refund_amount]]></name>
+            <type><![CDATA[DECIMAL((16,2))]]></type>
+            <uid><![CDATA[DD0C186E-901C-43E5-BAC2-D458BA066522]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[DEE4742D-EA8B-4E15-8CEA-AE2E0A3C4830]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[cart_num]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[C358BB87-71AE-4FA5-A097-D95A684B1BF0]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[favor_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[E64005B9-4C89-4262-985D-AE6853A0D5CF]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_good_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[CD584966-201B-4ED0-99F8-2ABCB20619E9]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_mid_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[A97F1820-B43F-430D-8B75-A43B2DCBDF91]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_bad_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[F452B37A-882F-4883-8F75-C4EC686E5DA4]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[appraise_default_count]]></name>
+            <type><![CDATA[BIGINT]]></type>
+            <uid><![CDATA[5579D1CE-0069-4AD5-9930-0CE3D0B8BB5C]]></uid>
+        </SQLField>
+        <uid><![CDATA[E7646FDA-1DC3-4F16-9F9B-382294AB0707]]></uid>
+    </SQLTable>
+    <SQLTable>
+        <name><![CDATA[dwt_coupon_tppic]]></name>
+        <schema><![CDATA[]]></schema>
+        <location>
+            <x>623.00</x>
+            <y>3175.00</y>
+        </location>
+        <size>
+            <width>193.00</width>
+            <height>160.00</height>
+        </size>
+        <zorder>43</zorder>
+        <SQLField>
+            <name><![CDATA[coupon_id]]></name>
+            <type><![CDATA[VARCHAR(255)]]></type>
+            <uid><![CDATA[5A63D25B-E8E8-4B01-BC3F-738C20D5DF0B]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[get_day_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[FF4B8A14-B702-413F-A062-075E131A0E7D]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[using_day_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[63B81AA6-D9B7-42DC-85A3-70A14AF6DDC0]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[used_day_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[9BBCCA20-4520-4549-A596-7901C767CC50]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[get_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[A4FC16DF-3C74-4ED2-B67A-F403184C0221]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[using_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[FC2E19A7-DF24-43D4-8D27-10D06E2F0CB3]]></uid>
+        </SQLField>
+        <SQLField>
+            <name><![CDATA[used_count]]></name>
+            <type><![CDATA[INT]]></type>
+            <uid><![CDATA[8B07643C-8009-4A4E-B03D-B7B554B5944A]]></uid>
+        </SQLField>
+        <uid><![CDATA[E9C5CA5D-123C-4D84-89E5-686E975FD8DD]]></uid>
+    </SQLTable>
+    <SQLTable>
         <name><![CDATA[dwd_fact_payment_info]]></name>
         <schema><![CDATA[]]></schema>
         <location>
@@ -1827,6 +2612,7 @@
             <type><![CDATA[DECIMAL((16,2))]]></type>
             <uid><![CDATA[B3F6A62E-97C3-422E-A025-5B3548E64296]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[EA9E9D1B-70A3-4C05-BE3F-7DD913390ABA]]></uid>
     </SQLTable>
     <SQLTable>
@@ -1927,6 +2713,7 @@
             <type><![CDATA[VARCHAR(255)]]></type>
             <uid><![CDATA[3A839219-09C0-49BC-8F94-F3DB4A071513]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[F55B1064-27D4-4DBB-B879-75AB2CF335C4]]></uid>
     </SQLTable>
     <SQLTable>
@@ -1986,6 +2773,7 @@
             <type><![CDATA[DECIMAL((16,2))]]></type>
             <uid><![CDATA[C8A6CA21-CC3D-4EE0-9A77-02C3F634BF6E]]></uid>
         </SQLField>
+        <ui.treeExpanded><![CDATA[1]]></ui.treeExpanded>
         <uid><![CDATA[F8071198-894F-4131-AA70-3E860919596D]]></uid>
     </SQLTable>
     <SQLTable>
@@ -2051,7 +2839,7 @@
         <windowHeight><![CDATA[990.000000]]></windowHeight>
         <windowLocationX><![CDATA[0.000000]]></windowLocationX>
         <windowLocationY><![CDATA[0.000000]]></windowLocationY>
-        <windowScrollOrigin><![CDATA[{0, 1356.5}]]></windowScrollOrigin>
+        <windowScrollOrigin><![CDATA[{0, 2230}]]></windowScrollOrigin>
         <windowWidth><![CDATA[1680.000000]]></windowWidth>
     </SQLDocumentInfo>
     <AllowsIndexRenamingOnInsert><![CDATA[1]]></AllowsIndexRenamingOnInsert>
